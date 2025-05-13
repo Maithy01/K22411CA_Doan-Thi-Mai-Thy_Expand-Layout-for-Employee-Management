@@ -15,7 +15,7 @@ public class ListEmployee {
     }
 
     public void generate_sample_dataset() {
-        // Nhân viên ban đầu
+
         Employee e1 = new Employee();
         e1.setName("John");
         e1.setEmail("john@gmail.com");
@@ -59,7 +59,6 @@ public class ListEmployee {
         e6.setPassword("pass");
         employees.add(e6);
 
-        // Thêm 10 nhân viên giả lập nữa
         Employee e7 = new Employee();
         e7.setName("David");
         e7.setEmail("david@gmail.com");
