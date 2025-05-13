@@ -37,7 +37,6 @@ public class ListEmployee {
         e3.setPassword("789");
         employees.add(e3);
 
-        // Thêm nhân viên giả lập khác
         Employee e4 = new Employee();
         e4.setName("Alice");
         e4.setEmail("alice@gmail.com");
